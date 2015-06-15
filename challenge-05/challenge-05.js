@@ -35,11 +35,11 @@ var arr5 = [true, null, 1, 'String', undefined];
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
-myFunction(arr5, 0);
-myFunction(arr5, 1);
-myFunction(arr5, 2);
-myFunction(arr5, 3);
-myFunction(arr5, 4);
+console.log(myFunction(arr5, 0));
+console.log(myFunction(arr5, 1));
+console.log(myFunction(arr5, 2));
+console.log(myFunction(arr5, 3));
+console.log(myFunction(arr5, 4));
 
 /*
 Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
