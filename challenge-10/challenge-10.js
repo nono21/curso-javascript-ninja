@@ -163,7 +163,7 @@
     console.log(showErrorMessage(operationSignal));
   }
 
-  operationSignal = '-';
+  operationSignal = '/';
   var division = calculator(operationSignal);
   if(division) {
     number1 = 25;
